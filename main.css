@@ -4,5 +4,69 @@
     padding: 0;
 }
 body {
-    background-color: aqua;
+    background-color: rgb(51, 51, 51);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(197, 33, 63);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: rgb(52, 5, 5);
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 2px;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.logo {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.button {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+nav {
+    height: 150px;
+    width: 100%;
+    background-color: rgb(197, 33, 63);
+    border-bottom: 1px solid black;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.element {
+    height: 50px;
+    padding-left: 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* || NAVBAR JS CLASS || */
+
+.nav-js {
+    height: 0;
+    overflow: hidden;
 }
